@@ -42,6 +42,5 @@ calls[i] === "call"`
 
 
 ## Approach Explanation
----
 
 ### If you have suggestions for improvement or would like to contribute to this solution, feel free to create a pull request. 🙌😇
