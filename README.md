@@ -36,10 +36,12 @@ Any arguments could be passed to the function but it should still always return 
  
 
 Constraints:
-`0 <= args.length <= 10`
+`-1000 <= n <= 1000
+0 <= calls.length <= 1000
+calls[i] === "call"`
 
 
 ## Approach Explanation
-Solved using high order function 👍
+---
 
 ### If you have suggestions for improvement or would like to contribute to this solution, feel free to create a pull request. 🙌😇
