@@ -26,11 +26,11 @@ The function returned by createHelloWorld should always return "Hello World".`
 
 Example 2:
 ```cpp
-Input: args = [{},null,42]
-Output: "Hello World"
-Explanation:
-const f = createHelloWorld();
-f({}, null, 42); // "Hello World"
+Input: 
+n = -2
+["call","call","call","call","call"]
+Output: [-2,-1,0,1,2]
+Explanation: counter() initially returns -2. Then increases after each sebsequent call.
 ```
 Any arguments could be passed to the function but it should still always return "Hello World".
  
