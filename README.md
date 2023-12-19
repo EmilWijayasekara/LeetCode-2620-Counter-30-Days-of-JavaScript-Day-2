@@ -1,23 +1,26 @@
 # LeetCode (30 Days of JavaScript)
 
 ## About the problem
-- *Problem Number* : 2667
-- *Problem Name* :  [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)
+- *Problem Number* : 2620
+- *Problem Name* :  [Counter](https://leetcode.com/problems/counter/)
 - *Problem difficulty* : Easy 🟢
 - *Programming language used* - JavaScript
 
 ## Problem
 
-Write a function createHelloWorld. It should return a new function that always returns "Hello World".
+Given an integer n, return a counter function. This counter function initially returns n and then returns 1 more than the previous value every subsequent time it is called (n, n + 1, n + 2, etc).
  
 
 Example 1:
 ```cpp
-Input: args = []
-Output: "Hello World"
-Explanation:
-const f = createHelloWorld();
-f(); // "Hello World"
+Input: 
+n = 10 
+["call","call","call"]
+Output: [10,11,12]
+Explanation: 
+counter() = 10 // The first time counter() is called, it returns n.
+counter() = 11 // Returns 1 more than the previous time.
+counter() = 12 // Returns 1 more than the previous time.
 ```
 The function returned by createHelloWorld should always return "Hello World".`
 
